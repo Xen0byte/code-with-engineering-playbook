@@ -429,6 +429,8 @@
         
           
         
+          
+        
       
       
         
@@ -473,6 +475,20 @@
     <li class="md-nav__item">
       <a href="../../../agile-development/advanced-topics/backlog-management/minimal-slices/" class="md-nav__link">
         Minimalism Slices
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../agile-development/advanced-topics/backlog-management/risk-management/" class="md-nav__link">
+        Risk Management
       </a>
     </li>
   
@@ -2523,13 +2539,6 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#proselint" class="md-nav__link">
-    proselint
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
   <a href="#write-good" class="md-nav__link">
     write-good
   </a>
@@ -4006,6 +4015,8 @@
         
           
         
+          
+        
       
       
         <label class="md-nav__link" for="__nav_11">
@@ -5142,19 +5153,70 @@
         
           
         
-          
-        
-          
-        
       
       
         <label class="md-nav__link" for="__nav_11_5">
+          Exception handling
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Exception handling" data-md-level="2">
+        <label class="md-nav__title" for="__nav_11_5">
+          <span class="md-nav__icon md-icon"></span>
+          Exception handling
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../design/exception-handling/readme/" class="md-nav__link">
+        Readme
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_11_6" type="checkbox" id="__nav_11_6" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_11_6">
           Sustainability
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" aria-label="Sustainability" data-md-level="2">
-        <label class="md-nav__title" for="__nav_11_5">
+        <label class="md-nav__title" for="__nav_11_6">
           <span class="md-nav__icon md-icon"></span>
           Sustainability
         </label>
@@ -7379,13 +7441,6 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#proselint" class="md-nav__link">
-    proselint
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
   <a href="#write-good" class="md-nav__link">
     write-good
   </a>
@@ -7565,15 +7620,6 @@
 <div class="highlight"><pre><span></span><code>markdownlint<span class="w"> </span>**/*.md<span class="w"> </span>--ignore<span class="w"> </span>node_modules<span class="w"> </span>--fix
 </code></pre></div>
 <p>A comprehensive list of markdownlint rules is available <a href="https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md">here</a>.</p>
-<h3 id="proselint">proselint</h3>
-<p><a href="http://proselint.com/"><code>proselint</code></a> is a command line utility that lints the text contents of the document.  It checks for jargon, spelling errors, redundancy, corporate speak and other language related issues.</p>
-<p>It's available both as a <a href="https://github.com/amperser/proselint/#checks">python package</a> and a <a href="https://www.npmjs.com/package/proselint">node package</a>.</p>
-<div class="highlight"><pre><span></span><code>pip<span class="w"> </span>install<span class="w"> </span>proselint
-npm<span class="w"> </span>install<span class="w"> </span>-g<span class="w"> </span>proselint
-</code></pre></div>
-<p>Run proselint</p>
-<div class="highlight"><pre><span></span><code>proselint<span class="w"> </span>document.md
-</code></pre></div>
 <h3 id="write-good">write-good</h3>
 <p><a href="https://github.com/btford/write-good"><code>write-good</code></a> is a linter for English text that helps writing better documentation.</p>
 <div class="highlight"><pre><span></span><code>npm<span class="w"> </span>install<span class="w"> </span>-g<span class="w"> </span>write-good
@@ -7669,7 +7715,7 @@ Save your guidelines together with your documentation, so they are easy to refer
 <li>Avoid duplication of content, instead link to the <code>single source of truth</code></li>
 <li>Link but don't summarize. Summarizing content on another page leads to the content living in two places</li>
 <li>Use meaningful anchor texts, e.g. instead of writing <code>Follow the instructions [here](../recipes/markdown.md)</code> write <code>Follow the [Markdown guidelines](../recipes/markdown.md)</code></li>
-<li>Make sure links to Microsoft docs (like <code>https://learn.microsoft.com/something/somethingelse</code>) do not contain the language marker <code>/en-us/</code> or <code>/fr-fr/</code>, as this is automatically determined by the site itself.</li>
+<li>Make sure links to Microsoft docs do not contain the language marker <code>/en-us/</code> or <code>/fr-fr/</code>, as this is automatically determined by the site itself.</li>
 </ul>
 <h3 id="lists">Lists</h3>
 <ul>
@@ -7741,7 +7787,7 @@ Save your guidelines together with your documentation, so they are easy to refer
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">May 30, 2023</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">October 18, 2023</span>
       
     
   </small>
